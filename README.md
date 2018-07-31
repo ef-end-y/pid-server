@@ -2,6 +2,17 @@
 
 Online shell for PID-Analyzer (https://github.com/Plasmatree/PID-Analyzer)
 
+Run:
+
+```bash
+python3 server.py 
+```
+
+Usage help:
+
+```bash
+python3 server.py --help
+```
 
 You probably need to make some changes in PID-Analyzer.py:
 
