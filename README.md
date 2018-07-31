@@ -25,7 +25,7 @@ You probably need to make some changes in PID-Analyzer.py:
 If you see version 2.xx.xx - you need to change the first line of PID-Analyzer.py:
 
 ```bash
-/usr/bin/env python3
+#!/usr/bin/env python3
 ```
 
 2) probably in Linux after this line it is necessary to add:
