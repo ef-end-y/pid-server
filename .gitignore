@@ -5,5 +5,4 @@
 .idea
 .DS_store
 venv
-files/*
 !pip_requirements.txt
