@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+
+<div class='center-container'>
+    <div class='absolute-center'>
+        {% if error %}
+            <div class='error'>{{error}}</div>
+        {% endif %}
+        <h3>Online PID-analyzer</h3>
+        <form action='{% url "upload_bbl" %}' enctype='multipart/form-data' method='post'>
+            {% csrf_token %}
+            <label for='bbl_file'>BBL log file to analyse:</label>
+            <input id='bbl_file' type='file' name='bbl_file'>
+            <br><br>
+            <label for='noise_bounds'>Bounds of plots in noise analysis:</label>
+            <input id='noise_bounds' type='text' name='noise_bounds' value={{noise_bounds}}>
+            <input type='submit' value='Analyze'>
+        </form>
+        <div class='add_info'>
+            Additional info:
+            <ul>
+                <li><a href='https://github.com/Plasmatree/PID-Analyzer'>PID-Analyzer</a>
+                <li><a href='https://www.youtube.com/watch?v=OuZSiozHMt4'>Video guide (russian)</a>
+                <li><small><a href='https://www.youtube.com/playlist?list=PL7Jh9bSyCgzFP3DRCzkQICgPo6HRV90cl'>Python lessons (russian)</a></small>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

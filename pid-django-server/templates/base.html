@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online PID-analyzer</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    <meta name='copyright' content='https://www.youtube.com/channel/UCIHLL1JB-BYXtpeWP7z3HtQ'>
+    <style>
+html, body {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    font-size: 16pt;
+    font-family: Tahoma, sans-serif;
+    color: #304050;
+    background-color: #ffffff;
+}
+input[type='submit'] {
+    margin-top: 20pt;
+    display: block;
+    font-size: 18pt;
+    padding: 5pt 15pt;
+    border-style: outset;
+    color: #ffffff;
+    background-color: #304050;
+    border: 1px solid #000000;
+}
+input[type='text'] {
+    width: 100%;
+    margin-top: 20pt;
+    font-size: 20pt;
+    padding: 2pt;
+    color: #304050;
+    background-color: #e0e0e0;
+    border: 1px solid #304050;
+}
+.center-container {
+    position: relative;
+    height: 100%;
+}
+.absolute-center {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.error {
+    color: #ff0000;
+}
+.log {
+    font-size: 50%;
+    margin-top: 10pt;
+    white-space: pre;
+    overflow: scroll;
+}
+.add_info {
+    margin-top: 45pt;
+    font-size: 70%;
+}
+    </style>
+{% block head %}{% endblock %}
+</head>
+<body>
+{% block body %}{% endblock %}
+</body>
+</html>

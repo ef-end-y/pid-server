@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+
+<p>Yes! <a href='{% url "index" %}'>Try again</a></p>
+{% for file in files %}
+<img src='{% url "download" job_id file %}'>
+<hr>
+{% endfor %}
+<p>Log:</p>
+<div class='log'>{{ log }}</div>
+
+{% endblock %}

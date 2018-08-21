@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+
+<script>
+    setTimeout(function() {{
+       window.location.href = '{% url "result" %}?job_id={{ job_id }}&step={{ step }}';
+    }}, 3000);
+</script>
+
+{% endblock %}
+
+
+{% block body %}
+
+<div class='center-container'>
+    <div class='absolute-center'>
+        {{ result }}
+        <p>{{ files }} pictures ready</p>
+        <div class='log'>{{ log }}</div>
+    </div>
+</div>
+
+{% endblock %}
