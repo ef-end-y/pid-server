@@ -1,3 +1,5 @@
+### Attention. PID analyzer is outdated. Use this repository for educational purposes only
+
 # pid-server
 
 Online shell for PID-Analyzer (https://github.com/Plasmatree/PID-Analyzer)
