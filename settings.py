@@ -124,8 +124,6 @@ input[type='text'] {
                         Additional info:
                         <ul>
                             <li><a href='https://github.com/Plasmatree/PID-Analyzer'>PID-Analyzer</a>
-                            <li><a href='https://www.youtube.com/watch?v=OuZSiozHMt4'>Video guide (russian)</a>
-                            <li><small><a href='https://www.youtube.com/playlist?list=PL7Jh9bSyCgzFP3DRCzkQICgPo6HRV90cl'>Python lessons (russian)</a></small>
                         </ul>
                     </div>
                 </div>
