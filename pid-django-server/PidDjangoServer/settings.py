@@ -80,7 +80,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-
 PROJECT_PATH = os.path.dirname(__file__)
 
 PID_ANALYZER_PATH = os.path.join(PROJECT_PATH, '../PID-Analyzer/PID-Analyzer.py')

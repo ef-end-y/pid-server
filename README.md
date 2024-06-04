@@ -2,6 +2,13 @@
 
 Online shell for PID-Analyzer (https://github.com/Plasmatree/PID-Analyzer)
 
+```bash
+git clone https://github.com/Plasmatree/PID-Analyzer.git
+sudo apt install python3-tk
+pip install -r PID-Analyzer/requirements.txt
+pip install -r pip_requirements.txt
+```
+
 Run:
 
 ```bash
